@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Parallel Computing
- * AUTHOR: R. Lobato & C. Verra
+ * AUTHORS: R. Lobato , C. Verra , D. Vermaas & W. Beuker
  */
 public class CustomUtilities {
 

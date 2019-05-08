@@ -1,6 +1,9 @@
 /**
  * Maintained and created by:
  * R. Lobato
+ *
+ * Edited by:
+ * D. Vermaas & W. Beuker
  */
 class InsertionSort {
     /**

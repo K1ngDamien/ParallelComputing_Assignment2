@@ -5,7 +5,7 @@ import java.util.concurrent.Executors;
 
 /**
  * Parallel-Computing
- * AUTHOR: R. Lobato & C. Verra
+ * AUTHORS: R. Lobato , C. Verra , D. Vermaas & W. Beuker
  */
 public class BucketSort {
 
