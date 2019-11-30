@@ -27,9 +27,6 @@ public final class Main {
 		System.out.println("Is Sorted: " + sortingCheck(TEST_ARRAY));
         // END- BucketSort
 
-        // START- algorithm
-        // Code..
-        // END- algorithm
     }
 
     private static void printArray(int[] testArray) {
