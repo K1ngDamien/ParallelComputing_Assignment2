@@ -12,10 +12,10 @@ public class BucketSort {
     private static final int DEFAULT_BUCKET_SIZE = 5;
     private static int currentIndex = 0;
 
-    public static void sort(Integer[] array) {
+    public static void sort(int[] array) {
         sort(array, DEFAULT_BUCKET_SIZE);
     }
-    static void sort(Integer[] arrayToSort, int bucketSize) {
+    static void sort(int[] arrayToSort, int bucketSize) {
 
 
         System.out.println("Do Bucketsort with " + arrayToSort.length + " integers \n");
@@ -28,8 +28,8 @@ public class BucketSort {
         }
 
         // Bepaal min en max waarden
-        Integer minValue = arrayToSort[0];
-        Integer  maxValue= arrayToSort[0];
+        int minValue = arrayToSort[0];
+        int  maxValue= arrayToSort[0];
         for (int i = 1; i < arrayToSort.length; i++) {
             if (arrayToSort[i] < minValue) {
                 minValue = arrayToSort[i];
